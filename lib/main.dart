@@ -18,6 +18,9 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Calculadora de IMC"),
+        centerTitle: true,
+        backgroundColor: Colors.green,
+        actions: <Widget> [ IconButton(icon: Icon(Icons.refresh), onPressed: (){},) ],
       ),
     );
   }
