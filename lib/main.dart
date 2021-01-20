@@ -29,6 +29,7 @@ class _HomeState extends State<Home> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Icon(Icons.person_outline, size: 120.0, color: Colors.green),
+
           TextField(
             keyboardType: TextInputType.number,
             decoration: InputDecoration(
@@ -37,6 +38,7 @@ class _HomeState extends State<Home> {
             textAlign: TextAlign.center,
             style: TextStyle(color: Colors.green, fontSize: 25.0),
           ),
+
           TextField(
             keyboardType: TextInputType.number,
             decoration: InputDecoration(
@@ -44,6 +46,12 @@ class _HomeState extends State<Home> {
                 labelStyle: TextStyle(color: Colors.green)),
             textAlign: TextAlign.center,
             style: TextStyle(color: Colors.green, fontSize: 25.0),
+          ),
+
+          RaisedButton(
+              onPressed: (){},
+              child: Text("Calcular"),
+              color: Colors.green,
           ),
         ],
       ),
